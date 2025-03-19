@@ -31,16 +31,22 @@ My research interests include computer architecture, real-time systems, and time
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+[Modeling and analysis of inter-process communication delay in ros 2]
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+**Xiantong Luo**, Xu Jiang, Nan Guan, Hao Liang, Songran Liu, Wang Yi
 
 [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+- [Timing Analysis of Cause-Effect Chains for External Events with Finite Validity Intervals], **Xiantong Luo**, Haochun Liang, Yue Tang, Xu Jiang, Nan Guan, Wang Yi **SETTA 2024**
+- [Analysis and optimization of worst-case time disparity in cause-effect chains], Xu Jiang, **Xiantong Luo**, Nan Guan, Zheng Dong, Shaoshan Liu, Wang Yi **DATE 2023**
+- [Efficient CUDA stream management for multi-DNN real-time inference on embedded GPUs], Wweiguang Pang, **Xiantong Luo**, Kailun Chen, Dong Ji, Lei Qiao, Wang Yi **Journal of Systems Architecture**
+- [Comparing communication paradigms in cause-effect chains], Yue Tang, Xu Jiang, Nan Guan, Dong Ji, **Xiantong Luo**, Wang Yi **IEEE Transactions on Computers**
+- [Optimizing end-to-end latency of sporadic cause-effect chains using priority inheritance], Yue Tang, Xu Jiang, Nan Guan, Songran Liu, **Xiantong Luo**, Wang Yi **RTSS 2023**
+- [Real-time performance analysis of processing systems on ROS 2 executors], Yue Tang, Nan Guan, Xu Jiang, **Xiantong Luo**, Wang Yi **RTAS 2023**
+- [Timing analysis of processing chains with data refreshing in ROS 2], Yue Tang, Xu Jiang, Nan Guan, **Xiantong Luo**, Maolin Yang, Wang Yi **Journal of Systems Architecture**
 
 # 🎖 Honors and Awards
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
