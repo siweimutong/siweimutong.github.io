@@ -7,8 +7,7 @@
 
 # Site Settings
 title                    : "Xiantong Luo"
-description              : "Research Field: Computer Architecture, Real-time Operating System, Autonomous Driving, Robotics
-• Specific Research Direction: Focused on modeling and analysis of CPS (Cyber-Physical Systems) and real-time systems, with a focus on resource scheduling, communication performance optimization, and system hardening in real-time systems such as autonomous driving and robots. By deeply analyzing and optimizing scheduling and timing problems on distributed heterogeneous platforms, the system design and implementation are carried out using platforms such as ROS 2, Autoware, and Baidu Cyber RT. Finally, the optimized system is deployed on popular robotics and autonomous driving platforms such as Autoware and ROS 2 to verify the correctness and effectiveness of the design."
+description              : "Research Field: Computer Architecture, Real-time Operating System, Autonomous Driving, Robotics”
 repository               : "siweimutong/siweimutong.github.io"
 google_scholar_stats_use_cdn : true
 
