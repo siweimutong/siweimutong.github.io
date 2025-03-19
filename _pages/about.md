@@ -60,5 +60,5 @@ My research interests include computer architecture, real-time systems, and time
 - Academic report at Real-Time Systems Symposium in December 2023
 - Invited to give an academic report at the 22nd CCF National Embedded Systems Conference (CCF ESTC 2024) in 2024
 
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+# 💻 Work Experience
+- *2020.08 - 2021.04*, China Aerospace Science & Industry Corporation (CASIC), Command Automation Control Center, China.
