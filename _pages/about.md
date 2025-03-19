@@ -19,10 +19,13 @@ redirect_from:
 
 I am pursuing a PhD in Computer Science at Northeastern University, with research interests in **computer architecture**, **real-time systems**, and time performance challenges in autonomous driving. I have published eight papers in top-tier venues in these fields. My research focuses on modeling and analyzing Cyber-Physical Systems (CPS) and real-time systems, particularly in resource scheduling, communication performance optimization, and system hardening for autonomous driving and robotics. I analyze and optimize scheduling and timing issues on distributed heterogeneous platforms, leveraging frameworks such as ROS 2, Autoware, and Baidu Cyber RT for system design and implementation. My optimized systems are deployed and validated on Autoware and ROS 2 to ensure their correctness and effectiveness.
 
+My research interests include computer architecture, real-time systems, and time performance issues related to autonomous driving. I have published 8 papers in top architecture and real-time fields.
+
+
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+%- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+%- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
 # 📝 Publications 
 
