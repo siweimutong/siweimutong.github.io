@@ -47,17 +47,18 @@ My research interests include computer architecture, real-time systems, and time
 - [Timing analysis of processing chains with data refreshing in ROS 2], Yue Tang, Xu Jiang, Nan Guan, **Xiantong Luo**, Maolin Yang, Wang Yi **Journal of Systems Architecture**
 
 # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2019.06*, 中国研究生数学建模大赛三等奖. 
+- *2023.10*, 国家奖学金
+- *2023.10*, 东北大学优秀研究生
 
 # 📖 Educations
 - *2021.09 - 2025.06 (now)*, Northeastern University, School of Computer and Information Engineering, Computer Science and Technology, PhD.
 - *2017.09 - 2020.06*, Guangxi University, School of Computer and Electronic Information, Software Engineering, Master.
 - *2011.09 - 2015.06*, University of Electronic Science and Technology of China School of Information and Software Engineering Software Engineering, Bachelor
 # 💬 Invited Talks
-- *2019.06*, 中国研究生数学建模大赛三等奖. 
-- *2023.10*, 国家奖学金
-- *2023.10*, 东北大学优秀研究生
+- Academic report at Design, Automation & Test in Europe Conference & Exhibition in April 2023;
+- Academic report at Real-Time Systems Symposium in December 2023
+- Invited to give an academic report at the 22nd CCF National Embedded Systems Conference (CCF ESTC 2024) in 2024
 
 # 💻 Internships
 - *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
