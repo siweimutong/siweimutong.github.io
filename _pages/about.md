@@ -24,8 +24,9 @@ My research interests include computer architecture, real-time systems, and time
 
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2024.05*: &nbsp;🎉🎉 2023 SETTA papers accepted. 
+- *2023.08*: &nbsp;🎉🎉 2023 RTSS papers accepted.
+- *2022.11*: &nbsp;🎉🎉 2023 DATE papers accepted.
 
 # 📝 Publications 
 
