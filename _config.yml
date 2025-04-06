@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Xiantong Luo"
+title                    : "罗贤橦"
 description              : "Research Field: Computer Architecture, Real-time Operating System, Autonomous Driving, Robotics”
 repository               : "siweimutong/siweimutong.github.io"
 google_scholar_stats_use_cdn : true
