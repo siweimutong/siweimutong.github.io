@@ -5,6 +5,3 @@ inline: true
 related_posts: false
 ---
 - 🎉🎉 IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems **TCAD** papers accepted. 
-- *2024.05*: &nbsp;🎉🎉 2023 **SETTA** papers accepted. 
-- *2023.08*: &nbsp;🎉🎉 2023 **RTSS** papers accepted.
-- *2022.11*: &nbsp;🎉🎉 2023 **DATE** papers accepted.
