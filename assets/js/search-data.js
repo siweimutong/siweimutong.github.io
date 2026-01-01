@@ -367,7 +367,12 @@ ninja.data = [{
           window.location.href = "/blog/2015/formatting-and-links/";
         
       },
-    },{id: "news-design-automation-amp-amp-test-in-europe-conference-amp-amp-exhibition-date-papers-accepted",
+    },{id: "cooperators-qi-ming-明奇",
+          title: 'Qi Ming | 明奇',
+          description: "Professor (Ph.D. Supervisor),2025-now",
+          section: "Cooperators",handler: () => {
+              window.location.href = "/cooperators/1_project/";
+            },},{id: "news-design-automation-amp-amp-test-in-europe-conference-amp-amp-exhibition-date-papers-accepted",
           title: '🎉🎉 Design, Automation &amp;amp;amp; Test in Europe Conference &amp;amp;amp; Exhibition (DATE) papers accepted....',
           description: "",
           section: "News",},{id: "news-international-symposium-on-dependable-software-engineering-theories-tools-and-applications-setta-papers-accepted",
