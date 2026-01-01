@@ -8,7 +8,7 @@ display_categories: [Beijing University of Technology, University of Electronic 
 horizontal: false
 ---
 
-<!-- pages/projects.md -->
+<!-- pages/cooperators.md -->
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
