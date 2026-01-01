@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-students",
           title: "Students",
-          description: "from Image Signal Process (ISP) Lab",
+          description: "From the Institute of Architecture, Beijing University of Technology",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
