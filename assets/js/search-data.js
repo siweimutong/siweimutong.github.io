@@ -375,12 +375,7 @@ ninja.data = [{
           section: "News",},{id: "news-ieee-transactions-on-computer-aided-design-of-integrated-circuits-and-systems-tcad-papers-accepted",
           title: '🎉🎉 IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD) papers...',
           description: "",
-          section: "News",},{id: "projects-yiming-liu-刘益鸣",
-          title: 'Yiming Liu | 刘益鸣',
-          description: "PhD,2023-Now",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/10_project/";
-            },},{id: "projects-rui-liu-刘睿",
+          section: "News",},{id: "projects-rui-liu-刘睿",
           title: 'Rui Liu | 刘睿',
           description: "PhD,2025-Now",
           section: "Projects",handler: () => {
