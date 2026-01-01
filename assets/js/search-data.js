@@ -23,13 +23,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cooperators/";
           },
-        },{id: "nav-cooperators",
-          title: "Cooperators",
-          description: "from Image Signal Process (ISP) Lab",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/cooperators/";
-          },
         },{id: "nav-students",
           title: "Students",
           description: "from Image Signal Process (ISP) Lab",
