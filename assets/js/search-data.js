@@ -367,7 +367,7 @@ ninja.data = [{
           title: '🎉🎉 International Symposium on Dependable Software Engineering: Theories, Tools, and Applications (SETTA) papers...',
           description: "",
           section: "News",},{id: "news-journal-of-systems-architecture-jsa-papers-accepted",
-          title: '🎉🎉 Journal of Systems Architecture (JSA) papers accepted. 🎉🎉',
+          title: '🎉🎉 Journal of Systems Architecture (JSA) papers accepted.',
           description: "",
           section: "News",},{id: "news-ieee-real-time-systems-symposium-rtss-papers-accepted",
           title: '🎉🎉 IEEE Real-Time Systems Symposium (RTSS) papers accepted. 🎉🎉',
