@@ -2,7 +2,6 @@
 layout: page
 title: Cooperators
 permalink: /cooperators/
-description: from Image Signal Process (ISP) Lab
 nav: true
 nav_order: 3
 display_categories: [Current, Alumni]
