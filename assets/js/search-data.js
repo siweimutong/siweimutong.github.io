@@ -361,7 +361,7 @@ ninja.data = [{
         
       },
     },{id: "news-design-automation-amp-amp-test-in-europe-conference-amp-amp-exhibition-date-papers-accepted",
-          title: '🎉🎉 Design, Automation &amp;amp;amp; Test in Europe Conference &amp;amp;amp; Exhibition DATE papers accepted....',
+          title: '🎉🎉 Design, Automation &amp;amp;amp; Test in Europe Conference &amp;amp;amp; Exhibition (DATE) papers accepted....',
           description: "",
           section: "News",},{id: "news-one-paper-is-accepted-by-ieee-transactions-on-image-processing-tip",
           title: 'One paper is accepted by IEEE Transactions on Image Processing (TIP).',
