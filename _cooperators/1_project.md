@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Qi Ming | 明奇
-redirect: ming71.github.io
+redirect: https://ming71.github.io
 description: Professor (Ph.D. Supervisor),2025-now
 img: assets/img/cooperators/MingQi.png
 importance: 1
