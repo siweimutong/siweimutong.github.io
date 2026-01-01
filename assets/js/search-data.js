@@ -387,7 +387,7 @@ ninja.data = [{
           section: "News",},{id: "news-ieee-real-time-systems-symposium-rtss-papers-accepted",
           title: '🎉🎉 IEEE Real-Time Systems Symposium RTSS papers accepted.',
           description: "",
-          section: "News",},{id: "news-ieee-transactions-on-computer-aided-design-of-integrated-circuits-and-systems-tcad-papers-accepted-2024-05-2023-setta-papers-accepted-2023-08-2023-rtss-papers-accepted-2022-11-2023-date-papers-accepted",
+          section: "News",},{id: "news-ieee-transactions-on-computer-aided-design-of-integrated-circuits-and-systems-tcad-papers-accepted",
           title: '🎉🎉 IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems TCAD papers...',
           description: "",
           section: "News",},{id: "projects-yiming-liu-刘益鸣",
