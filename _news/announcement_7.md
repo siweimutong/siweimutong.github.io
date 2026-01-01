@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2025-07-01 15:59:00-0400
-inline: true`
+date: 2024-11-25 15:59:00-0400
+inline: true
 related_posts: false
 ---
-Several papers are accepted by IEEE Transactions on Pattern Analysis and Machine Intelligence **(TPAMI)** .
+- 🎉🎉 International Symposium on Dependable Software Engineering: Theories, Tools, and Applications **SETTA** papers accepted. 
