@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-cooperators",
           title: "Cooperators",
-          description: "from Image Signal Process (ISP) Lab",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cooperators/";
