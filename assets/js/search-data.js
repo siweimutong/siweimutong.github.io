@@ -375,67 +375,7 @@ ninja.data = [{
           section: "News",},{id: "news-ieee-transactions-on-computer-aided-design-of-integrated-circuits-and-systems-tcad-papers-accepted",
           title: '🎉🎉 IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD) papers...',
           description: "",
-          section: "News",},{id: "projects-rui-liu-刘睿",
-          title: 'Rui Liu | 刘睿',
-          description: "PhD,2025-Now",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/11_project/";
-            },},{id: "projects-shuqi-liu-刘淑琪",
-          title: 'Shuqi Liu | 刘淑琪',
-          description: "PhD,2025-Now",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/12_project/";
-            },},{id: "projects-beiyuan-zhang-张倍源",
-          title: 'Beiyuan Zhang | 张倍源',
-          description: "PhD,2025-Now",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/13_project/";
-            },},{id: "projects-linwei-chen-陈林蔚",
-          title: 'Linwei Chen | 陈林蔚',
-          description: "PhD,2021-2025",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-yunhao-zou-邹云昊",
-          title: 'Yunhao Zou | 邹云昊',
-          description: "PhD,2019-2025",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-fan-zhang-张帆",
-          title: 'Fan Zhang | 张帆',
-          description: "PhD,2021-2025",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-yingping-liang-梁瑛平",
-          title: 'Yingping Liang | 梁瑛平',
-          description: "PhD,2022-Now",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-hesong-li-李和松",
-          title: 'Hesong Li | 李和松',
-          description: "PhD,2022-Now",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-yingkai-zhang-张英凯",
-          title: 'Yingkai Zhang | 张英凯',
-          description: "PhD,2022-Now",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-jianan-wang-王嘉楠",
-          title: 'Jianan Wang | 王嘉楠',
-          description: "PhD,2023-Now",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-cuiling-wu-吴翠灵",
-          title: 'Cuiling Wu | 吴翠灵',
-          description: "PhD,2023-Now",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-binfeng-wang-王彬沣",
-          title: 'Binfeng Wang | 王彬沣',
-          description: "PhD,2023-Now",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
-            },},{
+          section: "News",},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
