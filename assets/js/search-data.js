@@ -379,7 +379,7 @@ ninja.data = [{
           title: 'Several papers are accepted by IEEE Conference on Computer Vision and Pattern Recognition...',
           description: "",
           section: "News",},{id: "news-journal-of-systems-architecture-jsa-papers-accepted",
-          title: '🎉🎉 Journal of Systems Architecture JSA papers accepted. 🎉🎉',
+          title: '🎉🎉 Journal of Systems Architecture (JSA) papers accepted. 🎉🎉',
           description: "",
           section: "News",},{id: "news-journal-of-systems-architecture-jsa-papers-accepted",
           title: '🎉🎉 Journal of Systems Architecture JSA papers accepted.',
