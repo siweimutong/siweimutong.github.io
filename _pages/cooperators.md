@@ -4,7 +4,7 @@ title: Cooperators
 permalink: /cooperators/
 nav: true
 nav_order: 3
-display_categories: [Current, Alumni]
+display_categories: [Beijing University of Technology, University of Electronic Science and Technology of China, Northeastern University Chain]
 horizontal: false
 ---
 
