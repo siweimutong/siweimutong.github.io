@@ -1,0 +1,10 @@
+---
+layout: page
+title: Qi Ming | 明奇
+redirect: https://https://ming71.github.io/
+description: Professor (Ph.D. Supervisor),2025-now
+img: assets/img/cooperators/MingQi.png
+importance: 1
+category: Beijing University of Technology
+related_publications: true
+---
