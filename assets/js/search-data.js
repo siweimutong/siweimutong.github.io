@@ -360,8 +360,8 @@ ninja.data = [{
           window.location.href = "/blog/2015/formatting-and-links/";
         
       },
-    },{id: "news-one-paper-is-accepted-by-transactions-on-geoscience-and-remote-sensing-tgrs",
-          title: 'One paper is accepted by Transactions on Geoscience and Remote Sensing (TGRS).',
+    },{id: "news-design-automation-amp-amp-test-in-europe-conference-amp-amp-exhibition-date-papers-accepted",
+          title: '🎉🎉 Design, Automation &amp;amp;amp; Test in Europe Conference &amp;amp;amp; Exhibition DATE papers accepted....',
           description: "",
           section: "News",},{id: "news-one-paper-is-accepted-by-ieee-transactions-on-image-processing-tip",
           title: 'One paper is accepted by IEEE Transactions on Image Processing (TIP).',
