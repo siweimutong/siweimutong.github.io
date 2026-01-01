@@ -2,12 +2,14 @@
 # the commented lines are the default social media links supported by the template
 # the socials will be displayed in the order they are defined here
 
+- title: Google Scholar
+  url: https://scholar.google.com/citations?user=O5Yg3hoAAAAJ&hl
 # acm_id: # your dl.acm.org/profile/id
 # blogger_url: # your blogger URL
 # bluesky_url: # your bluesky URL
 # dblp_url: # your DBLP profile url
 # discord_id: # your discord id (18-digit unique numerical identifier)
-email: luoxiantong@bjut.edu.cn # your email address
+#email: luoxiantong@bjut.edu.cn # your email address
 # facebook_id: # your facebook id
 # flickr_id: # your flickr id
 github_username: siweimutong 
