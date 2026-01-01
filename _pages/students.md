@@ -2,7 +2,7 @@
 layout: page
 title: Students
 permalink: /projects/
-description: from Image Signal Process (ISP) Lab
+description: From the Institute of Architecture, Beijing University of Technology
 nav: true
 nav_order: 3
 display_categories: [Current, Alumni]
