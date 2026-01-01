@@ -370,7 +370,7 @@ ninja.data = [{
           title: 'Several papers are accepted by IEEE Transactions on Pattern Analysis and Machine Intelligence...',
           description: "",
           section: "News",},{id: "news-international-symposium-on-dependable-software-engineering-theories-tools-and-applications-setta-papers-accepted",
-          title: '🎉🎉 International Symposium on Dependable Software Engineering: Theories, Tools, and Applications SETTA papers...',
+          title: '🎉🎉 International Symposium on Dependable Software Engineering: Theories, Tools, and Applications (SETTA) papers...',
           description: "",
           section: "News",},{id: "news-international-symposium-on-dependable-software-engineering-theories-tools-and-applications-setta-papers-accepted",
           title: '🎉🎉 International Symposium on Dependable Software Engineering: Theories, Tools, and Applications SETTA papers...',
