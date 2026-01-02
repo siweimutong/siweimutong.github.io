@@ -13,7 +13,7 @@
   color: "#00369f"
 
 "TCAD":
-  url: https://en.wikipedia.org/wiki/IEEE_Transactions_on_Computer-Aided_Design_of_Integrated_Circuits_and_Systems
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=43
   color: "#00369f"
 
 "TPDS":
@@ -181,7 +181,6 @@
   color: "#A82E26"
 
 "SETTA":
-  url: http://www.wikicfp.com/cfp/servlet/event.showcfp?copyownerid=90704&eventid=185779
   color: "#A82E26"
 
 "DAC":
@@ -189,7 +188,6 @@
   color: "#A82E26"
 
 "EMSOFT":
-  url: http://www.wikicfp.com/cfp/servlet/event.showcfp?copyownerid=90704&eventid=185006
   color: "#A82E26"
 
 "CICAI":
