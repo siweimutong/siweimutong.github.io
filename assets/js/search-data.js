@@ -388,13 +388,6 @@ ninja.data = [{
           title: '🎉🎉 IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD) papers...',
           description: "",
           section: "News",},{
-        id: 'social-email',
-        title: 'email',
-        section: 'Socials',
-        handler: () => {
-          window.open("mailto:%6C%75%6F%78%69%61%6E%74%6F%6E%67@%62%6A%75%74.%65%64%75.%63%6E", "_blank");
-        },
-      },{
         id: 'social-github',
         title: 'GitHub',
         section: 'Socials',
@@ -402,25 +395,11 @@ ninja.data = [{
           window.open("https://github.com/siweimutong", "_blank");
         },
       },{
-        id: 'social-orcid',
-        title: 'ORCID',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://orcid.org/0000-0003-4667-0619", "_blank");
-        },
-      },{
         id: 'social-rss',
         title: 'RSS Feed',
         section: 'Socials',
         handler: () => {
           window.open("/feed.xml", "_blank");
-        },
-      },{
-        id: 'social-scholar',
-        title: 'Google Scholar',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://scholar.google.com/citations?user=O5Yg3hoAAAAJ", "_blank");
         },
       },{
         id: 'social-custom_social',
