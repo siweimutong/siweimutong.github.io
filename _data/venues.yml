@@ -12,6 +12,29 @@
   url: http://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34
   color: "#00369f"
 
+"TCAD":
+  url: https://en.wikipedia.org/wiki/IEEE_Transactions_on_Computer-Aided_Design_of_Integrated_Circuits_and_Systems
+  color: "#00369f"
+
+"TPDS":
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=71
+  color: "#00369f"
+
+"TC":
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=12
+  color: "#00369f"
+
+"JSA":
+  url: https://www.sciencedirect.com/journal/journal-of-systems-architecture
+  color: "#00369f"
+
+"TII":
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=9424
+  color: "#00369f"
+
+"IoTJ":
+  color: "#00369f"
+
 "TIP":
   url: http://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=83
   color: "#00369f"
@@ -147,6 +170,26 @@
 
 "AAAI":
   url: https://en.wikipedia.org/wiki/AAAI_Conference_on_Artificial_Intelligence
+  color: "#A82E26"
+
+"RTSS":
+  url: https://ieeexplore.ieee.org/xpl/conhome/1000619/all-proceedings
+  color: "#A82E26"
+
+"RTAS":
+  url: https://ieeexplore.ieee.org/xpl/conhome/1003170/all-proceedings
+  color: "#A82E26"
+
+"SETTA":
+  url: http://www.wikicfp.com/cfp/servlet/event.showcfp?copyownerid=90704&eventid=185779
+  color: "#A82E26"
+
+"DAC":
+  url: https://en.wikipedia.org/wiki/Design_Automation_Conference
+  color: "#A82E26"
+
+"EMSOFT":
+  url: http://www.wikicfp.com/cfp/servlet/event.showcfp?copyownerid=90704&eventid=185006
   color: "#A82E26"
 
 "CICAI":
