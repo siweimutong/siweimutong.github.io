@@ -1,6 +1,6 @@
 ---
 layout: page
-title: News
+title:  "<i class='fas fa-bullhorn'></i> News"
 permalink: /news/
 ---
 
