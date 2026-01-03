@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /selected_publications/
-title: SelectedPublications
+title: "<i class='fas fa-book'></i> Selected Publications"
 description:
 nav: true
 nav_order: 3
