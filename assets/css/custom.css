@@ -49,6 +49,8 @@
   border-radius: 50%;    /* 强制圆形 */
   object-fit: cover;     /* 防止人脸被拉伸 */
   box-shadow: 0 10px 25px rgba(0,0,0,0.18);
+  
+  display: block;
 }
 
 .page-about .profile {
