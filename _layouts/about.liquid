@@ -73,7 +73,7 @@ layout: default
 
     <!-- News -->
     {% if page.news and site.announcements and site.announcements.enabled %}
-      <h2>News</h2>
+      <h2><i class="fas fa-bullhorn"></i> News</h2>
       {% include news.liquid limit=true %}
     {% endif %}
 
@@ -86,17 +86,16 @@ layout: default
     {% endif %}
 
     <h2><i class="fas fa-users"></i> Openings & Collaboration</h2>
-    <h2>Openings</h2>
     <p>
       I warmly welcome applications from self-motivated M.S. students interested in computer systems, real-time systems, and autonomous/robotic systems.
       I also welcome academic collaboration and technical exchange with researchers and industry partners.
-      If you are interested in joining our group or exploring potential collaboration, please feel free to contact me by email.
+      If you are interested in joining our group or exploring potential collaboration opportunities, please do not hesitate to contact me by email.
     </p>
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>
-        <a href="/publications" style="color: inherit">Selected Publications</a>
+        <a href="/publications" style="color: inherit"><i class="fas fa-book"></i>Selected Publications</a>
       </h2>
       {% include selected_papers.liquid %}
     {% endif %}
