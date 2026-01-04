@@ -45,12 +45,12 @@
   object-fit: cover !important;
   display: block;
   box-shadow: 0 10px 25px rgba(0,0,0,0.18);
-  transform: translateY(80px);
+  transform: translateY(150px);
 }
 
 /* move profile up */
 .profile {
-  transform: translateY(-150px);
+  transform: translateY(-200px);
 }
 
 
