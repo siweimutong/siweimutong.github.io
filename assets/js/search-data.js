@@ -372,8 +372,8 @@ ninja.data = [{
           description: "Professor (Ph.D. Supervisor),2025-now",
           section: "Cooperators",handler: () => {
               window.location.href = "/cooperators/1_project/";
-            },},{id: "news-design-automation-amp-amp-test-in-europe-conference-amp-amp-exhibition-date-papers-accepted",
-          title: 'Design, Automation &amp;amp;amp; Test in Europe Conference &amp;amp;amp; Exhibition (DATE) papers accepted.',
+            },},{id: "news-the-26th-design-automation-amp-amp-test-in-europe-conference-amp-amp-exhibition-date-papers-accepted",
+          title: 'The 26th Design, Automation &amp;amp;amp; Test in Europe Conference &amp;amp;amp; Exhibition (DATE) papers...',
           description: "",
           section: "News",},{id: "news-the-10th-international-symposium-on-dependable-software-engineering-theories-tools-and-applications-setta-papers-accepted",
           title: 'The 10th International Symposium on Dependable Software Engineering: Theories, Tools, and Applications (SETTA)...',
