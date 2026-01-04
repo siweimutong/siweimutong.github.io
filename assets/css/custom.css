@@ -8,7 +8,7 @@
 
 /* English block */
 .about-block-en {
-  background-color: #f5f7fa;
+  background-color: #f8fafc;
   border-left: 4px solid #3b82f6;
 }
 
@@ -17,6 +17,13 @@
   background-color: #f8fafc;
   border-left: 4px solid #22c55e;
 }
+
+/* Opening block */
+.opening-block {
+  background-color: #f8fafc;
+  border-left: 4px solid #FFD377;
+}
+
 
 /* ===== Hero background for homepage (About) ===== */
 .page-about .navbar {
