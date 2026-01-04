@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Cooperators
+title: Collaborater
 permalink: /cooperators/
 nav: true
 nav_order: 3
