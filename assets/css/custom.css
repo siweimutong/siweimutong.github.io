@@ -84,18 +84,23 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: flex-start;   /* 关键：左对齐，避免等宽 */
+  line-height: 1;
 }
 
+/* 所有校名图片：强制保持原始比例 */
 .bjut-name img {
-  height: 16px;
-  width: auto;
+  height: 16px;              /* 统一高度 */
+  width: auto !important;    /* 核心：禁止被 width:100% 拉伸 */
+  max-width: none !important;/* 允许不同宽度 */
+  object-fit: contain;
   display: block;
 }
 
+/* 第二行间距 */
 .bjut-name img + img {
   margin-top: 4px;
 }
-
 
 /* 移动端适配 */
 @media (max-width: 576px) {
