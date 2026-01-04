@@ -53,6 +53,10 @@
   transform: translateY(-300px);
 }
 
+.page-about .about-block-en,
+.page-about .about-block-zh {
+  clear: both;          /* ✅ 不再绕排头像 */
+}
 
 /* ===== BJUT navbar image brand ===== */
 
