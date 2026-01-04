@@ -1,7 +1,38 @@
 <header>
   <!-- Nav Bar -->
-  <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
+  <nav
+    id="navbar"
+    class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}"
+    role="navigation"
+  >
     <div class="container">
+
+      {%- comment -%}
+      ==========================================================
+      [INSERTED HERE] ① BJUT Logos (left-top)
+      - 插入位置：就在 <div class="container"> 后面
+      - 作用：在导航栏最左侧显示三个图标
+      - 若只想首页显示：保留 if 判断；若全站显示：删除 if/endif
+      ==========================================================
+      {%- endcomment -%}
+      {% if page.permalink == '/' %}
+        <a class="navbar-brand bjut-brand" href="{{ site.baseurl }}/" aria-label="Home">
+          <div class="bjut-logos">
+            <img src="{{ '/assets/img/bjut_logo.png' | relative_url }}" alt="BJUT Logo">
+            <img src="{{ '/assets/img/bjut_name_en.png' | relative_url }}" alt="Beijing University of Technology">
+            <img src="{{ '/assets/img/bjut_name_cn.png' | relative_url }}" alt="北京工业大学">
+          </div>
+        </a>
+      {% endif %}
+
+      {%- comment -%}
+      ==========================================================
+      [ORIGINAL BRAND] ② 原有标题逻辑
+      - 你原来是：非首页显示姓名；首页若 enable_navbar_social 显示社交
+      - 如果你希望“非首页也显示姓名”，保持不变即可
+      - 如果你希望“首页也显示姓名”，我后面也给你可选改法
+      ==========================================================
+      {%- endcomment -%}
       {% if page.permalink != '/' %}
         <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
           {% if site.title == 'blank' %}
@@ -24,6 +55,7 @@
         <!-- Social Icons -->
         <div class="navbar-brand social">{% include social.liquid %}</div>
       {% endif %}
+
       <!-- Navbar Toggle -->
       <button
         class="navbar-toggler collapsed ml-auto"
@@ -117,6 +149,7 @@
               {% endif %}
             {% endif %}
           {% endfor %}
+
           {% if site.search_enabled %}
             <!-- Search -->
             <li class="nav-item">
@@ -125,8 +158,9 @@
               </button>
             </li>
           {% endif %}
+
           {% if site.enable_darkmode %}
-            <!-- Toogle theme mode -->
+            <!-- Toggle theme mode -->
             <li class="toggle-container">
               <button id="light-toggle" title="Change theme">
                 <i class="ti ti-sun-moon" id="light-toggle-system"></i>
@@ -139,6 +173,7 @@
       </div>
     </div>
   </nav>
+
   {% if site.enable_progressbar %}
     <!-- Scrolling Progress Bar -->
     <progress id="progress" value="0">
