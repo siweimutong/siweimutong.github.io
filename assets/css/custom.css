@@ -35,28 +35,45 @@
 }
 
 /* ===== About page profile image ===== */
-.profile img,
-.profile picture img,
-.profile figure img {
-  width: 200px !important;
-  height: 200px !important;
-  border-radius: 30% !important;
-  object-fit: cover !important;
+/* =========================
+   About 页：头像位置 + 不挤压正文
+   ========================= */
+
+/* 1) 关键：左侧内容不要围绕右侧 float 排版 */
+.page-about .post article > .clearfix {
+  clear: both;              /* ✅ 让正文从头像下方开始，不再绕排/挤压 */
+}
+
+/* 2) 头像本体：略椭圆 + 不拉伸 + 上移 */
+.page-about .profile img.img-fluid {
+  width: 240px;             /* 你可改 */
+  height: 280px;            /* 让它椭圆（高一点） */
+  object-fit: cover;        /* ✅ 防止拉伸变形 */
+  border-radius: 40%; /* ✅ 椭圆效果（也可用 50% 做正圆） */
+
+  transform: translateY(-80px); /* ✅ 上移（调这个值） */
+  position: relative;
+  z-index: 2;
   display: block;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.18);
-  transform: translateY(200px);
+}
+
+/* 3) 头像容器：保证与正文有合理间距，且不“挡住/挤布局” */
+.page-about .profile.float-right {
+  margin-left: 24px;        /* 头像与左侧文字间距 */
+  margin-bottom: 0;         /* 让布局更稳定 */
+  position: relative;
   z-index: 2;
 }
 
-/* move profile up */
-.profile {
-  transform: translateY(-300px);
+/* 4) 可选：小屏幕自动缩小 */
+@media (max-width: 576px) {
+  .page-about .profile img.img-fluid {
+    width: 160px;
+    height: 190px;
+    transform: translateY(-20px);
+  }
 }
 
-.page-about .about-block-en,
-.page-about .about-block-zh {
-  clear: both;          /* ✅ 不再绕排头像 */
-}
 
 /* ===== BJUT navbar image brand ===== */
 
