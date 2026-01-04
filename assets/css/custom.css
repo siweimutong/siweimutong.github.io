@@ -35,7 +35,6 @@
 }
 
 /* ===== About page profile image ===== */
-/* ===== About page profile image (robust) ===== */
 .profile img,
 .profile picture img,
 .profile figure img {
@@ -45,12 +44,13 @@
   object-fit: cover !important;
   display: block;
   box-shadow: 0 10px 25px rgba(0,0,0,0.18);
-  transform: translateY(150px);
+  transform: translateY(200px);
+  z-index: 2;
 }
 
 /* move profile up */
 .profile {
-  transform: translateY(-200px);
+  transform: translateY(-300px);
 }
 
 
