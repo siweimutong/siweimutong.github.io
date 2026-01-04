@@ -84,37 +84,39 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;   /* 关键：左对齐，避免等宽 */
+  align-items: flex-start;   /* 左对齐，防止等宽 */
   line-height: 1;
 }
 
-/* 所有校名图片：强制保持原始比例 */
-.bjut-name img {
-  height: 16px;              /* 统一高度 */
-  width: auto !important;    /* 核心：禁止被 width:100% 拉伸 */
-  max-width: none !important;/* 允许不同宽度 */
+/* 中文校名：占主要高度 */
+.bjut-name-cn-img {
+  height: 32px;              /* 3/4 */
+  width: auto !important;
+  max-width: none !important;
   object-fit: contain;
   display: block;
 }
 
-/* 第二行间距 */
-.bjut-name img + img {
+/* 英文校名：占较小高度 */
+.bjut-name-en-img {
+  height: 16px;               /* 1/4 */
+  width: auto !important;
+  max-width: none !important;
+  object-fit: contain;
+  display: block;
   margin-top: 4px;
 }
 
+
 /* 移动端适配 */
 @media (max-width: 576px) {
-  .bjut-logo {
-    height: 34px;
-    width: 34px;
+  .bjut-name-cn-img {
+    height: 20px;
   }
 
   .bjut-name-en-img {
-    height: 11px;
-  }
-
-  .bjut-name-cn-img {
-    height: 14px;
+    height: 7px;
   }
 }
+
 
