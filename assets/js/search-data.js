@@ -385,7 +385,7 @@ ninja.data = [{
           title: '46th IEEE Real-Time Systems Symposium (RTSS) papers accepted.',
           description: "",
           section: "News",},{id: "news-ieee-transactions-on-computer-aided-design-of-integrated-circuits-and-systems-tcad-papers-accepted",
-          title: '🎉🎉 IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD) papers...',
+          title: 'IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD) papers accepted....',
           description: "",
           section: "News",},{
         id: 'social-github',
