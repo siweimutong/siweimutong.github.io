@@ -28,19 +28,23 @@
 }
 
 /* ===== About page profile image ===== */
-.page-about .profile img {
-  width: 220px;          /* 控制头像大小 */
-  height: 220px;
-  border-radius: 50%;    /* 强制圆形 */
-  object-fit: cover;     /* 防止人脸被拉伸 */
-  box-shadow: 0 10px 25px rgba(0,0,0,0.18);
-  
+/* ===== About page profile image (robust) ===== */
+.profile img,
+.profile picture img,
+.profile figure img {
+  width: 220px !important;
+  height: 220px !important;
+  border-radius: 50% !important;
+  object-fit: cover !important;
   display: block;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.18);
 }
 
-.page-about .profile {
-  margin-top: -80px;
+/* move profile up */
+.profile {
+  transform: translateY(-80px);
 }
+
 
 /* ===== BJUT navbar image brand ===== */
 
