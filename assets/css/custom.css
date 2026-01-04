@@ -49,9 +49,9 @@
   width: 240px;             /* 你可改 */
   height: 280px;            /* 让它椭圆（高一点） */
   object-fit: cover;        /* ✅ 防止拉伸变形 */
-  border-radius: 40%; /* ✅ 椭圆效果（也可用 50% 做正圆） */
+  border-radius: 40%;       /* ✅ 椭圆效果（也可用 50% 做正圆） */
 
-  transform: translateY(-80px); /* ✅ 上移（调这个值） */
+  transform: translateY(-230px); /* ✅ 上移（调这个值） */
   position: relative;
   z-index: 2;
   display: block;
