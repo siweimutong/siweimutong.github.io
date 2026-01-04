@@ -24,6 +24,78 @@
   border-left: 4px solid #FFD377;
 }
 
+/* =========================
+   Dark mode override (Jekyll themes)
+   - supports: [data-theme="dark"], .dark, .theme-dark
+   ========================= */
+[data-theme="dark"] .about-block,
+[data-theme="dark"] .about-block-en,
+[data-theme="dark"] .about-block-zh,
+[data-theme="dark"] .opening-block,
+.dark .about-block,
+.dark .about-block-en,
+.dark .about-block-zh,
+.dark .opening-block,
+.theme-dark .about-block,
+.theme-dark .about-block-en,
+.theme-dark .about-block-zh,
+.theme-dark .opening-block {
+  /* 深蓝背景（学术风）。若更偏 GitHub Dark，可改成 #161b22 */
+  background-color: #0f172a;
+  color: #e6edf3;
+  border: 1px solid #22304a;
+}
+
+/* 夜间模式下左侧强调色条：稍提亮，保持对比 */
+[data-theme="dark"] .about-block-en,
+.dark .about-block-en,
+.theme-dark .about-block-en {
+  border-left: 4px solid #60a5fa;
+}
+
+[data-theme="dark"] .about-block-zh,
+.dark .about-block-zh,
+.theme-dark .about-block-zh {
+  border-left: 4px solid #34d399;
+}
+
+[data-theme="dark"] .opening-block,
+.dark .opening-block,
+.theme-dark .opening-block {
+  border-left: 4px solid #fbbf24;
+}
+
+/* 夜间模式下 block 内链接颜色 */
+[data-theme="dark"] .about-block a,
+[data-theme="dark"] .about-block-en a,
+[data-theme="dark"] .about-block-zh a,
+[data-theme="dark"] .opening-block a,
+.dark .about-block a,
+.dark .about-block-en a,
+.dark .about-block-zh a,
+.dark .opening-block a,
+.theme-dark .about-block a,
+.theme-dark .about-block-en a,
+.theme-dark .about-block-zh a,
+.theme-dark .opening-block a {
+  color: #93c5fd;
+  text-decoration-color: rgba(147, 197, 253, 0.55);
+}
+
+[data-theme="dark"] .about-block a:hover,
+[data-theme="dark"] .about-block-en a:hover,
+[data-theme="dark"] .about-block-zh a:hover,
+[data-theme="dark"] .opening-block a:hover,
+.dark .about-block a:hover,
+.dark .about-block-en a:hover,
+.dark .about-block-zh a:hover,
+.dark .opening-block a:hover,
+.theme-dark .about-block a:hover,
+.theme-dark .about-block-en a:hover,
+.theme-dark .about-block-zh a:hover,
+.theme-dark .opening-block a:hover {
+  color: #bfdbfe;
+}
 
 /* ===== Hero background for homepage (About) ===== */
 .page-about .navbar {
@@ -133,7 +205,6 @@
   margin-top: 4px;
 }
 
-
 /* 移动端适配 */
 @media (max-width: 576px) {
   .bjut-name-cn-img {
@@ -144,5 +215,3 @@
     height: 7px;
   }
 }
-
-
