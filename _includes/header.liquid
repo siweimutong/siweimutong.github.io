@@ -17,13 +17,33 @@
       {%- endcomment -%}
       {% if page.permalink == '/' %}
         <a class="navbar-brand bjut-brand" href="{{ site.baseurl }}/" aria-label="Home">
-          <div class="bjut-logos">
-            <img src="{{ '/assets/img/bjut_logo.png' | relative_url }}" alt="BJUT Logo">
-            <img src="{{ '/assets/img/bjut_name_en.png' | relative_url }}" alt="Beijing University of Technology">
-            <img src="{{ '/assets/img/bjut_name_cn.png' | relative_url }}" alt="北京工业大学">
+          <div class="bjut-brand-wrapper">
+      
+            <!-- 左：校徽 -->
+            <img
+              class="bjut-logo"
+              src="{{ '/assets/img/bjut_logo.png' | relative_url }}"
+              alt="Beijing University of Technology Logo"
+            >
+      
+            <!-- 右：中英文校名（图片，上下排列） -->
+            <div class="bjut-name">
+              <img
+                class="bjut-name-cn-img"
+                src="{{ '/assets/img/bjut_name_cn.png' | relative_url }}"
+                alt="北京工业大学"
+              >
+              <img
+                class="bjut-name-en-img"
+                src="{{ '/assets/img/bjut_name_en.png' | relative_url }}"
+                alt="Beijing University of Technology"
+              >
+            </div>
+      
           </div>
         </a>
       {% endif %}
+
 
       {%- comment -%}
       ==========================================================
