@@ -34,15 +34,16 @@
 .profile figure img {
   width: 220px !important;
   height: 220px !important;
-  border-radius: 50% !important;
+  border-radius: 40% !important;
   object-fit: cover !important;
   display: block;
   box-shadow: 0 10px 25px rgba(0,0,0,0.18);
+  transform: translateY(40px);
 }
 
 /* move profile up */
 .profile {
-  transform: translateY(-80px);
+  transform: translateY(-100px);
 }
 
 
