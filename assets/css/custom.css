@@ -56,6 +56,7 @@
 .page-about .profile {
   margin-top: -80px;
 }
+
 /* ===== BJUT navbar image brand ===== */
 
 .bjut-brand {
@@ -85,20 +86,16 @@
   justify-content: center;
 }
 
-/* 英文校名图片 */
-.bjut-name-en-img {
-  height: 14px;
+.bjut-name img {
+  height: 16px;
   width: auto;
   display: block;
 }
 
-/* 中文校名图片 */
-.bjut-name-cn-img {
-  height: 18px;
-  width: auto;
-  display: block;
+.bjut-name img + img {
   margin-top: 4px;
 }
+
 
 /* 移动端适配 */
 @media (max-width: 576px) {
