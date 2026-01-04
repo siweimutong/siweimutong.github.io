@@ -56,31 +56,63 @@
 .page-about .profile {
   margin-top: -80px;
 }
+/* ===== BJUT navbar image brand ===== */
 
-/* ===== BJUT logos in navbar ===== */
 .bjut-brand {
   padding: 0 !important;
-  margin-right: 12px !important;
+  margin-right: 16px !important;
 }
 
-.bjut-logos {
+/* 外层：logo + 名称，左右排列 */
+.bjut-brand-wrapper {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 12px;
 }
 
-.bjut-logos img {
-  height: 34px;
+/* 左侧校徽 */
+.bjut-logo {
+  height: 46px;
+  width: 46px;
+  object-fit: contain;
+  display: block;
+}
+
+/* 右侧名称：上下排列 */
+.bjut-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* 英文校名图片 */
+.bjut-name-en-img {
+  height: 14px;
   width: auto;
   display: block;
 }
 
-.bjut-logos img:first-child {
-  height: 40px; /* 圆形校徽略大 */
+/* 中文校名图片 */
+.bjut-name-cn-img {
+  height: 18px;
+  width: auto;
+  display: block;
+  margin-top: 4px;
 }
 
+/* 移动端适配 */
 @media (max-width: 576px) {
-  .bjut-logos { gap: 6px; }
-  .bjut-logos img { height: 26px; }
-  .bjut-logos img:first-child { height: 30px; }
+  .bjut-logo {
+    height: 34px;
+    width: 34px;
+  }
+
+  .bjut-name-en-img {
+    height: 11px;
+  }
+
+  .bjut-name-cn-img {
+    height: 14px;
+  }
 }
+
