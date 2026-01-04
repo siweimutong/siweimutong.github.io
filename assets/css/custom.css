@@ -27,21 +27,6 @@
   padding-top: 0;
 }
 
-/* Hero section */
-.page-about .content {
-  position: relative;
-}
-
-.page-about .content::before {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 320px;
-  background-image: url("/assets/img/hero.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
 /* ===== About page profile image ===== */
 .page-about .profile img {
   width: 220px;          /* 控制头像大小 */
