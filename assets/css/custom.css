@@ -57,3 +57,30 @@
   margin-top: -80px;
 }
 
+/* ===== BJUT logos in navbar ===== */
+.bjut-brand {
+  padding: 0 !important;
+  margin-right: 12px !important;
+}
+
+.bjut-logos {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.bjut-logos img {
+  height: 34px;
+  width: auto;
+  display: block;
+}
+
+.bjut-logos img:first-child {
+  height: 40px; /* 圆形校徽略大 */
+}
+
+@media (max-width: 576px) {
+  .bjut-logos { gap: 6px; }
+  .bjut-logos img { height: 26px; }
+  .bjut-logos img:first-child { height: 30px; }
+}
