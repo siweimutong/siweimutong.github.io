@@ -38,12 +38,12 @@
   object-fit: cover !important;
   display: block;
   box-shadow: 0 10px 25px rgba(0,0,0,0.18);
-  transform: translateY(40px);
+  transform: translateY(80px);
 }
 
 /* move profile up */
 .profile {
-  transform: translateY(-100px);
+  transform: translateY(-150px);
 }
 
 
