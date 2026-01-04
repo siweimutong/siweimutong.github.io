@@ -38,9 +38,9 @@
 .profile img,
 .profile picture img,
 .profile figure img {
-  width: 220px !important;
-  height: 220px !important;
-  border-radius: 40% !important;
+  width: 200px !important;
+  height: 200px !important;
+  border-radius: 30% !important;
   object-fit: cover !important;
   display: block;
   box-shadow: 0 10px 25px rgba(0,0,0,0.18);
