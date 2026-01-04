@@ -373,10 +373,10 @@ ninja.data = [{
           section: "Cooperators",handler: () => {
               window.location.href = "/cooperators/1_project/";
             },},{id: "news-design-automation-amp-amp-test-in-europe-conference-amp-amp-exhibition-date-papers-accepted",
-          title: '🎉🎉 Design, Automation &amp;amp;amp; Test in Europe Conference &amp;amp;amp; Exhibition (DATE) papers accepted....',
+          title: 'Design, Automation &amp;amp;amp; Test in Europe Conference &amp;amp;amp; Exhibition (DATE) papers accepted.',
           description: "",
           section: "News",},{id: "news-international-symposium-on-dependable-software-engineering-theories-tools-and-applications-setta-papers-accepted",
-          title: '🎉🎉 International Symposium on Dependable Software Engineering: Theories, Tools, and Applications (SETTA) papers...',
+          title: 'International Symposium on Dependable Software Engineering: Theories, Tools, and Applications (SETTA) papers accepted....',
           description: "",
           section: "News",},{id: "news-journal-of-systems-architecture-jsa-papers-accepted",
           title: '🎉🎉 Journal of Systems Architecture (JSA) papers accepted.',
