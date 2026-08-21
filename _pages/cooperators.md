@@ -5,7 +5,7 @@ title_zh: 合作者
 icon: '<i class="fa-solid fa-handshake"></i>'
 permalink: /cooperators/
 nav: true
-nav_order: 3
+nav_order: 4
 display_categories: [Beijing University of Technology, University of Electronic Science and Technology of China, Northeastern University China]
 horizontal: false
 ---

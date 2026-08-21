@@ -3,11 +3,11 @@ layout: page
 title: Students
 title_zh: 学生
 icon: '<i class="fa-solid fa-user-graduate"></i>'
-permalink: /projects/
+permalink: /students/
 description: From the Institute of Architecture, Beijing University of Technology
 description_zh: 北京工业大学体系结构研究所
 nav: true
-nav_order: 3
+nav_order: 5
 display_categories: [Current, Alumni]
 horizontal: false
 ---

@@ -6,7 +6,7 @@ title_zh: 联系方式
 icon: '<i class="fa-solid fa-envelope"></i>'
 description:
 nav: true
-nav_order: 4
+nav_order: 6
 ---
 
 <h3><span class="lang-en">Email</span><span class="lang-zh">邮箱</span></h3>
