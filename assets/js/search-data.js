@@ -23,12 +23,19 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cooperators/";
           },
+        },{id: "nav-repositories",
+          title: "repositories",
+          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/repositories/";
+          },
         },{id: "nav-students",
           title: "Students",
           description: "From the Institute of Architecture, Beijing University of Technology",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/projects/";
+            window.location.href = "/students/";
           },
         },{id: "nav-contact",
           title: "Contact",
