@@ -282,3 +282,30 @@ html[data-lang="zh"] .lang-zh { display: revert; }
 [data-theme="dark"] .research-badge,
 .dark .research-badge,
 .theme-dark .research-badge { background-color: rgba(96, 165, 250, 0.12); color: #93c5fd; border-color: rgba(96, 165, 250, 0.3); }
+
+
+/* ===== Projects page ===== */
+.project-item {
+  padding: 1.2rem 1.4rem;
+  margin: 1.2rem 0;
+  border-radius: 10px;
+  background-color: #f8fafc;
+  border-left: 4px solid #1f6feb;
+}
+.project-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+}
+.project-desc {
+  margin: 0;
+  color: #475569;
+  line-height: 1.7;
+}
+
+[data-theme="dark"] .project-item,
+.dark .project-item,
+.theme-dark .project-item { background-color: #0f172a; border: 1px solid #22304a; border-left: 4px solid #60a5fa; }
+[data-theme="dark"] .project-desc,
+.dark .project-desc,
+.theme-dark .project-desc { color: #cbd5e1; }
