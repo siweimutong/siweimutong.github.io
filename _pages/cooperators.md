@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Collaborater
+title: Collaborators
 title_zh: 合作者
 permalink: /cooperators/
 nav: true
