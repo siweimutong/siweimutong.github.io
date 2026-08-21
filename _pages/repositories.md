@@ -13,7 +13,7 @@ nav_order: 3
 <div class="project-item">
   {% include figure.liquid path="assets/img/ROS-RTEMS.png" class="project-img" alt="ROS-RTEMS" loading="lazy" sizes="72px" %}
   <div class="project-body">
-    <h3 class="project-title">ROS-RTEMS</h3>
+    <h3 class="project-title"><a href="https://github.com/siweimutong/ROS-RTEMS" target="_blank" rel="external nofollow noopener">ROS-RTEMS <i class="fa-brands fa-github"></i></a></h3>
     <p class="project-desc"><span class="lang-en">Integrates ROS 2 with the RTEMS real-time operating system to provide native, deterministic real-time execution for robotic applications.</span><span class="lang-zh">将 ROS 2 与 RTEMS 实时操作系统集成，为机器人应用提供原生、确定性的实时执行能力。</span></p>
   </div>
 </div>
@@ -37,7 +37,7 @@ nav_order: 3
 <div class="project-item">
   {% include figure.liquid path="assets/img/VNF.png" class="project-img" alt="Satellite-VNF-Placement" loading="lazy" sizes="72px" %}
   <div class="project-body">
-    <h3 class="project-title">Satellite-VNF-Placement</h3>
+    <h3 class="project-title"><a href="https://github.com/siweimutong/Satellite-VNF-Placement" target="_blank" rel="external nofollow noopener">Satellite-VNF-Placement <i class="fa-brands fa-github"></i></a></h3>
     <p class="project-desc"><span class="lang-en">Provides a reinforcement-learning solution for VNF task placement in satellite environments.</span><span class="lang-zh">提出基于强化学习的卫星环境 VNF 任务放置方案。</span></p>
   </div>
 </div>
