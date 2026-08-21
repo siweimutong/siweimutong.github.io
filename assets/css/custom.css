@@ -331,3 +331,7 @@ html[data-lang="zh"] .lang-zh { display: revert; }
 [data-theme="dark"] .project-desc,
 .dark .project-desc,
 .theme-dark .project-desc { color: #cbd5e1; }
+
+
+/* Language spans inherit parent color (so link text keeps link color) */
+.lang-en, .lang-zh { color: inherit; }
