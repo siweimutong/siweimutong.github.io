@@ -390,6 +390,9 @@ ninja.data = [{
           section: "News",},{id: "news-ieee-transactions-on-computer-aided-design-of-integrated-circuits-and-systems-tcad-papers-accepted",
           title: 'IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD) papers accepted....',
           description: "",
+          section: "News",},{id: "news-one-paper-accepted-to-the-47th-ieee-real-time-systems-symposium-rtss-2026-reintegrating-ros-2-into-rtos-a-native-deterministic-real-time-execution-scheme",
+          title: 'One paper accepted to the 47th IEEE Real-Time Systems Symposium (RTSS) 2026: “Reintegrating...',
+          description: "",
           section: "News",},{
         id: 'social-github',
         title: 'GitHub',
