@@ -95,13 +95,14 @@
       <div class="collapse navbar-collapse text-right" id="navbarNav">
         <ul class="navbar-nav ml-auto flex-nowrap">
           {% for page in site.pages %}
-            {% if page.permalink == '/' %} {% assign about_title = page.title %} {% endif %}
+            {% if page.permalink == '/' %} {% assign about_title = page.title %} {% assign about_title_zh = page.title_zh %} {% endif %}
           {% endfor %}
 
           <!-- About -->
           <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
             <a class="nav-link" href="{{ '/' | relative_url }}">
-              {{- about_title }}
+              <span class="lang-en">{{- about_title }}</span>
+              <span class="lang-zh">{{- about_title_zh | default: about_title }}</span>
               {% if page.permalink == '/' %}
                 <span class="sr-only">(current)</span>
               {% endif %}
@@ -129,7 +130,8 @@
                     aria-haspopup="true"
                     aria-expanded="false"
                   >
-                    {{- p.title }}
+                    <span class="lang-en">{{- p.title }}</span>
+                    <span class="lang-zh">{{- p.title_zh | default: p.title }}</span>
                     {% if page.title == p.title or has_active_child %}
                       <span class="sr-only">(current)</span>
                     {% endif %}
@@ -143,7 +145,7 @@
                           class="dropdown-item {% if page.title == child.title %}active{% endif %}"
                           href="{% if child.permalink contains '://' %}{{ child.permalink }}{% else %}{{ child.permalink | relative_url }}{% endif %}"
                         >
-                          {{- child.title -}}
+                          <span class="lang-en">{{- child.title -}}</span><span class="lang-zh">{{- child.title_zh | default: child.title -}}</span>
                         </a>
                       {% endif %}
                     {% endfor %}
@@ -160,7 +162,8 @@
                     {%- assign url = p.url -%}
                   {%- endif %}
                   <a class="nav-link" href="{{ url | relative_url }}">
-                    {{- p.title }}
+                    <span class="lang-en">{{- p.title }}</span>
+                    <span class="lang-zh">{{- p.title_zh | default: p.title }}</span>
                     {% if page.url contains p.url %}
                       <span class="sr-only">(current)</span>
                     {% endif %}
@@ -189,6 +192,14 @@
               </button>
             </li>
           {% endif %}
+
+          <!-- Language toggle -->
+          <li class="toggle-container">
+            <button id="lang-toggle" title="Switch language / 切换语言">
+              <span class="lang-en">中</span>
+              <span class="lang-zh">EN</span>
+            </button>
+          </li>
         </ul>
       </div>
     </div>

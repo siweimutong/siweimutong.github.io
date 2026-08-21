@@ -12,7 +12,10 @@ layout: default
         {{ site.title }}
       {% endif %}
     </h1>
-    <p class="desc">{{ page.subtitle }}</p>
+    <p class="desc">
+      <span class="lang-en">{{ page.subtitle }}</span>
+      {% if page.subtitle_zh %}<span class="lang-zh">{{ page.subtitle_zh }}</span>{% endif %}
+    </p>
   </header>
 
   <article>
@@ -42,7 +45,7 @@ layout: default
     <div class="clearfix">{{ content }}</div>
 
     <!-- Social -->
-    <h2><i class="fas fa-link"></i> Academic Profiles</h2>
+    <h2><i class="fas fa-link"></i> <span class="lang-en">Academic Profiles</span><span class="lang-zh">学术主页</span></h2>
     <ul class="contact-list">
       <li>
         <a href="https://github.com/siweimutong" target="_blank">
@@ -73,7 +76,7 @@ layout: default
 
     <!-- News -->
     {% if page.news and site.announcements and site.announcements.enabled %}
-      <h2><i class="fas fa-bullhorn"></i> News</h2>
+      <h2><i class="fas fa-bullhorn"></i> <span class="lang-en">News</span><span class="lang-zh">新闻</span></h2>
       {% include news.liquid limit=true %}
     {% endif %}
 
@@ -85,17 +88,22 @@ layout: default
       {% include latest_posts.liquid %}
     {% endif %}
 
-    <h2><i class="fas fa-users"></i> Openings & Collaboration</h2>
+    <h2><i class="fas fa-users"></i> <span class="lang-en">Openings &amp; Collaboration</span><span class="lang-zh">招生与合作</span></h2>
     <div class="about-block opening-block">
+      <span class="lang-en">
       I warmly welcome applications from self-motivated M.S. students interested in computer systems, real-time systems, and autonomous/robotic systems.
       I also welcome academic collaboration and technical exchange with researchers and industry partners.
       If you are interested in joining our group or exploring potential collaboration opportunities, please do not hesitate to contact me by email.
+      </span>
+      <span class="lang-zh">
+      我热忱欢迎对计算机系统、实时系统以及自动驾驶/机器人系统感兴趣、积极上进的硕士研究生申请加入。我也欢迎与研究人员及产业界伙伴开展学术合作与技术交流。如果您有兴趣加入我们团队或探讨潜在的合作机会，欢迎通过邮件与我联系。
+      </span>
     </div>
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>
-        <a href="/publications" style="color: inherit"><i class="fas fa-book"></i>Selected Publications</a>
+        <a href="/publications" style="color: inherit"><i class="fas fa-book"></i><span class="lang-en">Selected Publications</span><span class="lang-zh">代表性论文</span></a>
       </h2>
       {% include selected_papers.liquid %}
     {% endif %}
@@ -116,7 +124,7 @@ layout: default
 
   
     <!--Map My Visitors -->
-    <h2>Map My Visitors</h2>
+    <h2><span class="lang-en">Map My Visitors</span><span class="lang-zh">访客地图</span></h2>
     <p>
      <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=PPQU_mM7sTL_R36dMMVsIRMZoyqOm8vq4cw3JVPm7Ho&cl=ffffff&w=a"></script>
     </p>

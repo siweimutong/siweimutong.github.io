@@ -2,9 +2,9 @@
   <footer class="fixed-bottom" role="contentinfo">
     <div class="container mt-0">
       &copy; Copyright {{ site.time | date: '%Y' }}
-      {{ site.first_name }}
+      <span class="lang-en">{{ site.first_name }}
       {{ site.middle_name }}
-      {{ site.last_name }}. {{ site.footer_text }}
+      {{ site.last_name }}</span><span class="lang-zh">{{ site.name_zh }}</span>. <span class="lang-en">{{ site.footer_text }}</span><span class="lang-zh">{{ site.footer_text_zh }}</span>
       {% if site.impressum_path %}
         <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
       {% endif %}
@@ -21,9 +21,9 @@
 
     <div class="container">
       &copy; Copyright {{ site.time | date: '%Y' }}
-      {{ site.first_name }}
+      <span class="lang-en">{{ site.first_name }}
       {{ site.middle_name }}
-      {{ site.last_name }}. {{ site.footer_text }}
+      {{ site.last_name }}</span><span class="lang-zh">{{ site.name_zh }}</span>. <span class="lang-en">{{ site.footer_text }}</span><span class="lang-zh">{{ site.footer_text_zh }}</span>
       {% if site.impressum_path %}
         <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
       {% endif %}

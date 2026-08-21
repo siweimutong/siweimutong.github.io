@@ -215,3 +215,18 @@
     height: 7px;
   }
 }
+
+
+/* ===== Language toggle (中英文切换) ===== */
+.lang-zh { display: none; }
+html[data-lang="zh"] .lang-en { display: none; }
+html[data-lang="zh"] .lang-zh { display: revert; }
+
+/* Language toggle button */
+#lang-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0 0.25rem;
+  font-weight: 600;
+}
