@@ -24,3 +24,8 @@ nav_order: 3
   <h3 class="project-title"><span class="lang-en">Heterogeneous Autonomous Driving Real-Time Performance</span><span class="lang-zh">异构自动驾驶实时性能研究</span></h3>
   <p class="project-desc"><span class="lang-en">Timing analysis and scheduling of computation and communication for real-time performance in heterogeneous autonomous driving systems.</span><span class="lang-zh">面向异构自动驾驶系统的计算与通信时序分析与调度，保障系统的实时性能。</span></p>
 </div>
+
+<div class="project-item">
+  <h3 class="project-title">Satellite-VNF-Placement</h3>
+  <p class="project-desc"><span class="lang-en">A reinforcement-learning solution for VNF task placement in satellite environments.</span><span class="lang-zh">基于强化学习的卫星环境 VNF 任务放置方案。</span></p>
+</div>
