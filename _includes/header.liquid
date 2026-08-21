@@ -95,13 +95,13 @@
       <div class="collapse navbar-collapse text-right" id="navbarNav">
         <ul class="navbar-nav ml-auto flex-nowrap">
           {% for page in site.pages %}
-            {% if page.permalink == '/' %} {% assign about_title = page.title %} {% assign about_title_zh = page.title_zh %} {% endif %}
+            {% if page.permalink == '/' %} {% assign about_title = page.title %} {% assign about_title_zh = page.title_zh %} {% assign about_icon = page.icon %} {% endif %}
           {% endfor %}
 
           <!-- About -->
           <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
             <a class="nav-link" href="{{ '/' | relative_url }}">
-              <span class="lang-en">{{- about_title }}</span>
+              {{ about_icon }} <span class="lang-en">{{- about_title }}</span>
               <span class="lang-zh">{{- about_title_zh | default: about_title }}</span>
               {% if page.permalink == '/' %}
                 <span class="sr-only">(current)</span>
@@ -162,7 +162,7 @@
                     {%- assign url = p.url -%}
                   {%- endif %}
                   <a class="nav-link" href="{{ url | relative_url }}">
-                    <span class="lang-en">{{- p.title }}</span>
+                    {{ p.icon }} <span class="lang-en">{{- p.title }}</span>
                     <span class="lang-zh">{{- p.title_zh | default: p.title }}</span>
                     {% if page.url contains p.url %}
                       <span class="sr-only">(current)</span>

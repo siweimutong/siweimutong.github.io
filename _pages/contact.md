@@ -3,6 +3,7 @@ layout: page
 permalink: /contact/
 title: Contact
 title_zh: 联系方式
+icon: '<i class="fa-solid fa-envelope"></i>'
 description:
 nav: true
 nav_order: 4

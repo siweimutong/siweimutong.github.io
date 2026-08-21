@@ -2,6 +2,7 @@
 layout: page
 title: Students
 title_zh: 学生
+icon: '<i class="fa-solid fa-user-graduate"></i>'
 permalink: /projects/
 description: From the Institute of Architecture, Beijing University of Technology
 description_zh: 北京工业大学体系结构研究所

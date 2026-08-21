@@ -2,6 +2,7 @@
 layout: about
 title: About
 title_zh: 关于
+icon: '<i class="fa-solid fa-user"></i>'
 permalink: /
 subtitle: '<i class="fa-solid fa-chalkboard-user"></i> Assistant Professor' 
 subtitle_zh: '<i class="fa-solid fa-chalkboard-user"></i> 助理教授'
@@ -37,3 +38,16 @@ I'm currently a faculty member at the College of Computer Science, Beijing Unive
 <div class="about-block about-block-zh lang-zh">
 现任北京工业大学计算机学院教师，从事计算机系统方向的教学与科研工作。研究方向包括<span style="color:#1f6feb;"><strong>计算机体系结构、实时系统、实时分布式服务（RT-DDS）、自动驾驶系统与具身智能系统</strong></span>等。围绕信息物理系统（Cyber-Physical Systems，CPS）与实时系统的<span style="color:#1f6feb;"><strong>形式化建模、时序分析与系统级优化</strong></span>，系统开展复杂计算系统在异构计算与通信资源环境下执行确定性与性能可预测性问题的研究。研究重点聚焦于资源调度与分配机制、实时通信与多源数据一致性保障、系统可调度性分析及其工程化实现等关键技术，相关成果面向<span style="color:#1f6feb;"><strong>自动驾驶、机器人系统与卫星系统</strong></span>等安全关键与强实时应用场景，旨在为复杂自主系统提供具有理论支撑且可工程落地的实时性保障方法与系统优化方案。
 </div>
+
+<h3><i class="fas fa-flask"></i> <span class="lang-en">Research Interests</span><span class="lang-zh">研究方向</span></h3>
+<p class="research-badges">
+  <span class="research-badge"><span class="lang-en">Computer Architecture</span><span class="lang-zh">计算机体系结构</span></span>
+  <span class="research-badge"><span class="lang-en">Real-Time Systems</span><span class="lang-zh">实时系统</span></span>
+  <span class="research-badge"><span class="lang-en">Real-Time Distributed Services (RT-DDS)</span><span class="lang-zh">实时分布式服务 (RT-DDS)</span></span>
+  <span class="research-badge"><span class="lang-en">Autonomous Driving</span><span class="lang-zh">自动驾驶</span></span>
+  <span class="research-badge"><span class="lang-en">Embodied Intelligence</span><span class="lang-zh">具身智能</span></span>
+  <span class="research-badge"><span class="lang-en">Satellite Systems</span><span class="lang-zh">卫星系统</span></span>
+  <span class="research-badge"><span class="lang-en">High-Performance Computing</span><span class="lang-zh">高性能计算</span></span>
+  <span class="research-badge"><span class="lang-en">CPS Formal Modelling</span><span class="lang-zh">信息物理系统建模</span></span>
+</p>
+

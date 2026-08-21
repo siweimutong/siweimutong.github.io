@@ -2,6 +2,7 @@
 layout: page
 title: Collaborators
 title_zh: 合作者
+icon: '<i class="fa-solid fa-handshake"></i>'
 permalink: /cooperators/
 nav: true
 nav_order: 3

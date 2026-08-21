@@ -3,6 +3,7 @@ layout: page
 permalink: /publications/
 title: Publications
 title_zh: 论文
+icon: '<i class="fa-solid fa-book"></i>'
 description:
 nav: true
 nav_order: 2
